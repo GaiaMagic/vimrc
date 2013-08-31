@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 if [ -f ~/.vimrc ]; then
-  echo "Bacup your original .vimrc to ~/.vimrc_backup"
+  echo "Backup original .vimrc to ~/.vimrc_backup"
   mv ~/.vimrc ~/.vimrc_backup
 fi
 
 if [ -d ~/.vim ]; then
-  echo "Bacup your original .vim to ~/.vim_backup"
+  echo "Backup original .vim to ~/.vim_backup"
   mv ~/.vim ~/.vim_backup
 fi
 
