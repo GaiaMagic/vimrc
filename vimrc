@@ -77,6 +77,11 @@ nnoremap <leader>s <C-w>s
 " 垂直分割窗口
 nnoremap <leader>v <C-w>v
 
+" NERDTree显示对应文件位置
+map <F7> :NERDTreeFind<CR>
+" NERDTree开关
+map <F8> :NERDTreeToggle<CR>
+
 " 窗口区域切换,Ctrl+jkhl 来切换
 map <C-j> <C-W>j
 map <C-k> <C-W>k
