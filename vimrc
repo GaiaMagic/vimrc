@@ -1,5 +1,12 @@
+" ===== Vundle =====
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+filetype plugin indent on
+" ===== Vundle end =====
+
 syntax on " 语法高亮
-filetype plugin indent on " 文件类型检测
 filetype plugin on
 autocmd BufEnter * :syntax sync fromstart
 au FocusLost * :up " auto save files when focus is lost
