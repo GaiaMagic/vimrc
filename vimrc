@@ -90,7 +90,7 @@ map <C-l> <C-W>l
 
 " copy the file relative/absoulte path to the clipboard
 nmap <F5> :let @*=expand("%")<CR>
-nmap ,cp :let @*=expand("%:p")<CR>
+nmap <leader>cp :let @*=expand("%:p")<CR>
 
 "colorscheme blackboard  " 使用blackboard插件的配色
 "colorscheme monokai
