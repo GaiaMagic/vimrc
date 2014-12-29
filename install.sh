@@ -15,3 +15,4 @@ git clone https://github.com/GaiaMagic/vimrc.git ~/.vim
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 sh ~/.vim/deploy.sh
+reset
