@@ -48,6 +48,7 @@ set guioptions-=R         " 隐藏右边滚动条
 set formatoptions+=mM     " 正确地处理中文字符的折行和拼接
 set whichwrap+=<,>,h,l    " 退格键和方向键可以换行
 set fileencodings=utf-8   " 文件UTF-8编码
+set encoding=utf-8
 set clipboard=unnamedplus " yank and paste with the system clipboard
 set pastetoggle=<F10>     " 切换粘贴模式
 
